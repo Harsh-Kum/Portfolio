@@ -1,0 +1,37 @@
+body{
+    background-color: #ede8f5;
+}
+h1{
+    margin-left:20px ;
+}
+
+.container{
+    background-color: #7091e6;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+.container li{
+    display: flex; /* Make li a flex container if you need to align content within it */
+    align-items: center;
+    margin-left: 65%; /* Aligns li items to the right within their flex container */
+    gap: 15px;
+}
+.skills ol{
+    margin-left: 0px;
+}
+footer{
+    background-color: #7091e6;
+    text-align: center;
+    font-size: medium;
+}
+@media(max-width:1600px){
+    .container{
+        display: block;
+        text-align: center;
+    }
+   
+}
